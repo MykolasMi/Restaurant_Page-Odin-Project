@@ -1,0 +1,24 @@
+{
+  "name": "restaurant_page-odin-project",
+  "version": "1.0.0",
+  "description": "Create a restaurant page by practicing DOM manipulation via dynamically rendering the page and generating the entire contents of the website by using JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MykolasMi/Restaurant_Page-Odin-Project.git"
+  },
+  "author": "Mykolas Miškinis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MykolasMi/Restaurant_Page-Odin-Project/issues"
+  },
+  "homepage": "https://github.com/MykolasMi/Restaurant_Page-Odin-Project#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
