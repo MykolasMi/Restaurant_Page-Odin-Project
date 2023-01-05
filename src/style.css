@@ -57,3 +57,7 @@
     flex-direction: column;
     gap: 2px;
 }
+
+.inactive {
+    display: none;
+}

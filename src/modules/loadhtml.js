@@ -14,21 +14,29 @@ const buildPage = () => {
     header.appendChild(navBar);
 
     const navHome = document.createElement('div');
+    navHome.classList.add('navHome')
     navBar.appendChild(navHome);
     navHome.textContent = 'Home';
 
     const navMenu = document.createElement('div');
+    navMenu.classList.add('navMenu')
     navBar.appendChild(navMenu);
     navMenu.textContent = 'Menu';
 
     const navAbout = document.createElement('div');
+    navAbout.classList.add('navAbout')
     navBar.appendChild(navAbout);
     navAbout.textContent = 'About us';
 
 
+
+    const bodyContainer = document.createElement('div');
+    bodyContainer.classList.add('bodyContainer');
+    content.appendChild(bodyContainer);
+
     const body = document.createElement('div');
     body.classList.add('body')
-    content.appendChild(body);
+    bodyContainer.appendChild(body);
 
     const mainImg = document.createElement('img');
     mainImg.classList.add('bodyBg');
@@ -78,5 +86,5 @@ const buildPage = () => {
     addressBox.appendChild(ad4)
 
 }
-//SUTVARKYTI CSS
+
 export { buildPage };
